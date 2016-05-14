@@ -1,0 +1,28 @@
+{
+  "name": "reactredux",
+  "version": "0.1.0",
+  "description": "learning a node reactredux express webpack setup",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "myWebServer": {
+    "port": 8080
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yogibear77/reactredux.git"
+  },
+  "author": "bhav",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yogibear77/reactredux/issues"
+  },
+  "homepage": "https://github.com/yogibear77/reactredux#readme",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4"
+  }
+}
